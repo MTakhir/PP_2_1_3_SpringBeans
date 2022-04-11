@@ -16,4 +16,11 @@ public class Timer implements Serializable {
         return nanoTime;
     }
 
+    public Long getNanoTime() {
+        return nanoTime;
+    }
+
+    public void setNanoTime(Long nanoTime) {
+        this.nanoTime = nanoTime;
+    }
 }
